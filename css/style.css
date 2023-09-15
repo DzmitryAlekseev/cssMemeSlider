@@ -23,3 +23,40 @@ body {
     margin-top: 7%;
     margin-bottom: 7%;
 }
+
+input{
+    display: none;
+}
+
+.block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vh 0;
+}
+
+.controls {
+    width: 100%;
+    height: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1.5em;
+}
+
+.controls div {
+    width: 1.6em;
+    height: 1.6em;
+    margin-top: -0.8em;
+    margin-left: -0.8em;
+    padding: 0.5em;
+}
+
+.controls  label{
+    display: block;
+    box-sizing:border-box;
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background-color: #0280a3c5;
+    cursor: pointer;   
+}
