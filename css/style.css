@@ -1,0 +1,25 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.container{
+    width: inherit;
+    height: fit-content;
+    background-color: #808389;
+    border: 1.5em solid rgba(214, 211, 211, 0.534);
+    margin: 0 auto;
+    border-radius: 2%;
+    box-sizing: border-box;
+    margin-top: 1em;
+}
+
+.container__content{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    gap: 2vh;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
