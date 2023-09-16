@@ -28,10 +28,52 @@ input{
     display: none;
 }
 
+.slides {
+    display: flex;
+    flex-direction: column;
+    width: 400%;
+    height: fit-content;
+    margin: 0 auto;   
+    overflow: hidden;
+}
+
+.slides__image {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 100%;
+    
+    padding-right: 0.1%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 5%;
+}
+
 .block{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2vh 0;
+}
+
+.slides__text {
+    display: flex;
+    flex-direction: row;
+    grid-column-start: span 2;
+    overflow: hidden;
+    width: 600%; 
+}
+
+.slides__text label{
+    display: block;
+    width: inherit;
+    color: rgba(252, 251, 250, 0.813)
+    
 }
 
 .controls {
@@ -60,3 +102,4 @@ input{
     background-color: #0280a3c5;
     cursor: pointer;   
 }
+
