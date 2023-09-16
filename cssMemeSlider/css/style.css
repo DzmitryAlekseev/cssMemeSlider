@@ -68,7 +68,7 @@ img {
     flex-direction: row;
     grid-column-start: span 2;
     overflow: hidden;
-    width: 600%; 
+    width: 601%; 
 }
 
 .slides__text label{
