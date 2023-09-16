@@ -103,3 +103,131 @@ img {
     cursor: pointer;   
 }
 
+/* Состояние label */
+
+/*label:checked*/
+
+#slider1:checked ~ .block .controls .slider1__checked{
+    background-color: #0c0c0c;
+    border: 0.15em solid #0280a3c5;
+}
+
+#slider1:checked ~ .block .controls .slider1__checked:hover{
+    background-color: #0c0c0c;
+    border: 0.15em solid white;
+}
+
+#slider2:checked ~ .block .controls .slider2__checked{
+    background-color: #0c0c0c;
+    border: 0.15em solid #0280a3c5;
+}
+
+#slider2:checked ~ .block .controls .slider2__checked:hover{
+    background-color: #0c0c0c;
+    border: 0.15em solid white;
+}
+
+#slider3:checked ~ .block .controls .slider3__checked{
+    background-color: #0c0c0c;
+    border: 0.15em solid #0280a3c5;
+}
+
+#slider3:checked ~ .block .controls .slider3__checked:hover{
+    background-color: #0c0c0c;
+    border: 0.15em solid white;
+}
+
+#slider4:checked ~ .block .controls .slider4__checked{
+    background-color: #0c0c0c;
+    border: 0.15em solid #0280a3c5;
+}
+
+#slider4:checked ~ .block .controls .slider4__checked:hover{
+    background-color: #0c0c0c;
+    border: 0.15em solid white;
+}
+
+/*label:hover*/
+
+#slider1:hover ~ .block .controls .slider1__checked{
+    background-color: #ffffff; 
+}
+
+#slider2:hover ~ .block .controls .slider2__checked{
+    background-color: #ffffff; 
+}
+
+#slider3:hover ~ .block .controls .slider3__checked{
+    background-color: #ffffff; 
+}
+
+#slider4:hover ~ .block .controls .slider4__checked{
+    background-color: #ffffff; 
+}
+
+/*label:active*/
+
+#slider1:active ~ .block .controls .slider1__checked{
+    background-color: #eff0b2e0; 
+}
+
+#slider2:active ~ .block .controls .slider2__checked{
+    background-color: #eff0b2e0;
+}
+
+#slider3:active ~ .block .controls .slider3__checked{
+    background-color: #eff0b2e0;
+}
+
+#slider4:active ~ .block .controls .slider4__checked{
+    background-color: #eff0b2e0;
+}
+
+
+
+/* Change image with animation */
+
+#slider1:checked ~ .slides {
+    margin-left: 0%;
+    transition:all 0.5s ease;
+}
+
+#slider2:checked ~ .slides {
+    margin-left: -100%;
+    transition: all 0.5s ease;
+}
+
+#slider3:checked ~ .slides {
+    margin-left: -200%;
+    transition: all 0.5s ease;
+}
+
+#slider4:checked ~ .slides {
+    margin-left: -300%;
+    transition: all 0.5s ease;
+}
+
+
+ /* Change text with animation */
+
+#slider1:checked ~ .block .slides__text  {
+    margin-left: 0%;
+    transition:all 0.5s ease;
+}
+
+#slider2:checked ~ .block .slides__text {
+    margin-left: -150%;
+    transition: all 0.5s ease;
+}
+
+#slider3:checked ~ .block .slides__text {
+   
+    margin-left: -300%;
+    transition: all 0.5s ease;
+}
+
+#slider4:checked ~ .block .slides__text  {
+    margin-left: -450%;
+    transition: all 0.5s ease;
+}
+
